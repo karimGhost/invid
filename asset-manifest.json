@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/invid/static/css/main.43230b1c.css",
+    "main.js": "/invid/static/js/main.7be13fb2.js",
+    "index.html": "/invid/index.html",
+    "main.43230b1c.css.map": "/invid/static/css/main.43230b1c.css.map",
+    "main.7be13fb2.js.map": "/invid/static/js/main.7be13fb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43230b1c.css",
+    "static/js/main.7be13fb2.js"
+  ]
+}
