@@ -1,0 +1,107 @@
+.container_signup{
+background-color: rgba(128, 128, 128, 0.911);
+z-index: 10;
+position: fixed;
+justify-self: center;
+top:0;
+
+align-self: center;
+left: 0;
+right: 0;
+height: 100vh;
+margin: auto;
+padding: 20px;
+}
+/*
+.container_twins{
+
+}
+*/
+
+.submit{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100px;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid black;
+    font-size: 1em;
+    cursor: pointer;
+}
+.submit:hover{
+    color: white;
+    border-color: aqua;
+}
+
+.exit{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 2.8em;
+    color: aqua;
+    cursor: pointer;
+}
+
+.exit:hover{
+    color: rgb(7, 97, 97);
+}
+
+.sign{
+ color: aqua;
+    cursor: pointer;
+}
+
+
+.flexed{
+    display: grid;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.sub{
+   position: absolute;
+   left: 0; 
+   height: 30px;
+   border-radius: 4px;
+bottom: 100px;
+   border: none;
+right: 0;
+width: 150px;
+cursor: pointer;
+margin: auto;
+}
+
+.sub:hover{
+border: 3px solid black;
+background-color: transparent;
+color: white;
+
+}
+
+.or{
+    position: absolute;
+    bottom: 145px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20px;
+    font-weight: bold;
+    font-size: 1.5em ;
+}
+
+@media screen and (max-width: 358px) {
+
+#small{
+font-size: 1em;
+}
+
+#container_inputs {
+    position: relative;
+    min-width: 0; 
+    margin: 2rem 0;
+    color: black;
+}
+}

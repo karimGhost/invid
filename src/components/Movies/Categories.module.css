@@ -1,0 +1,117 @@
+.container_categories{
+  background-color: rgba(0, 0, 0, 0.041);
+  background-image: linear-gradient(to bottom right  black, white, black);
+  backdrop-filter: blur(20px);
+  --webkit-backdrop-filter: blur(20px);
+  width:fit-content;
+  box-shadow: 6px 2px 9px 3px rgb(0, 0, 0);
+  height: 100%;
+  overflow: auto;
+  z-index: 2;
+  position: fixed;
+  right: 0;
+  scroll-behavior: smooth;
+  --webkt-scrollbar-face-color: aqua;
+  scrollbar-gutter:inherit;
+  --webkit-scrollbar-highlight-color: brown;
+  --webkit-scrollbar-shadow-color: azure;
+  --webkit-scrollbar-track-color: yellow;
+  scrollbar-width: 20px;
+  top:113px;
+  
+  }
+ 
+  .Categories{
+      overflow: auto;
+      height: fit-content;
+      padding: 200px;
+      scroll-behavior: smooth;
+      --webkt-scrollbar-face-color: aqua;
+      scrollbar-gutter:inherit;
+      --webkit-scrollbar-highlight-color: brown;
+      --webkit-scrollbar-shadow-color: azure;
+      --webkit-scrollbar-track-color: yellow;
+      scrollbar-width: 20px;
+     
+  }
+  
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+   
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    background-color: rgb(3, 0, 0);
+  }
+
+  .items{
+    position: absolute;
+    top: 0vh;
+    justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+left: 0;
+right: 0;
+width: fit-content;
+padding: auto;
+
+margin:auto;
+}
+
+.items li{
+
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+  align-self: center;
+  margin: auto;
+  width: fit-content;
+font-size: 2em;
+font-weight: bold;
+color: rgba(248, 248, 255, 0.733);
+text-shadow: 1.4px 1.2px rgba(177, 223, 11, 0.486) ;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.x{
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.x:hover{
+
+  color: aqua
+}
+
+.items li:hover{
+  color: aqua;
+}
+
+
+
+@media screen and (min-width: 900px) {
+  
+  .x{
+    display: none;
+  }
+}

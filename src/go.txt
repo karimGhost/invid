@@ -1,0 +1,50 @@
+
+
+<div className={classes.containe_Trending}>
+
+<h1 className={classes.h1}>{props.title}</h1>
+
+<div className={classes.ro}>
+
+
+
+<div key={movie.id} className="ro"> 
+
+<div    className={classes.container_Tren}>
+
+    <div className={classes.Movie}>
+
+    </div>
+    </div>
+   
+   </div>
+
+
+
+   style={{
+    backgroundSize: "cover",
+    backgroundImage: `url(
+        "https//image.tmdb.org/t/p/original/${movie?.backdrop_p}
+        
+        
+        )`,
+        backgroundPosition: center;
+   }
+
+   }
+
+
+<img className="imgbi" src={`${base_url}${v.backdrop_path}`} />
+ style={{backgroundSize:"cover", backgroundImage:`url('https://image.tmdb.org/t/p/original/${v.backdrop_path}')`,backgroundPosition:'center center' }}
+
+
+Netflix Originals
+
+Trending Now 
+
+Action Movies
+Top_Rated Movies
+Comedy fetchUrl 
+Romantic movies
+Horor Movies
+Documentary
